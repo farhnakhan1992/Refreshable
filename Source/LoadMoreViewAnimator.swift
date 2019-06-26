@@ -27,7 +27,7 @@ open class LoadMoreAnimator: UIView, LoadMoreDelegate {
     open override func layoutSubviews() {
         super.layoutSubviews()
 
-        spinner.center = CGPoint(x: frame.size.width * 0.5, y: frame.size.height * 0.5)
+        spinner.center = CGPoint(x: frame.size.width * 0.5, y: frame.size.height * 0.33)
     }
 
     open func loadMoreAnimationDidStart(view: LoadMoreView) {
